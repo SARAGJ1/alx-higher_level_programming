@@ -5,17 +5,13 @@
 class Square:
     """ Square Class"""
 
-    def __init__(self, value):
+    def __init__(self, size):
         """Initialize Square with optional size"""
 
         if not isinstance(value, int):
             raise TypeError('size must be an integer')
         elif value < 0:
             raise ValueError('size must be >= 0')
-
-    def __init__(self, value):
-        """initialisation"""
-
         self.__size = value
 
     def size(self):
