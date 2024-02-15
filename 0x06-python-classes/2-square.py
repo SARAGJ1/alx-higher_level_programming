@@ -5,7 +5,7 @@
 class Square:
     """ Square Class"""
 
-    def __init__(self, size = 0):
+    def __init__(self, size=0):
         """Initialize Square with optional size"""
 
         if not isinstance(size, int):
