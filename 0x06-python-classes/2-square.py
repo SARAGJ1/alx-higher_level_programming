@@ -11,5 +11,5 @@ class Square:
     def type(_Square__size):
         if _Square__size < 0:
             print('size must be >= 0')
-        if not isinstance(value, int):
+        if not isinstance(_Square__size, int):
             print('size must be an integer')
