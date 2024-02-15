@@ -1,15 +1,12 @@
 #!/usr/bin/python3
-"""class Square.
-
-
-"""
+"""class Square"""
 
 
 class Square:
-        """ Square Class"""
+    """ Square Class"""
 
         def __init__(self, size=0):
-        """Initialize Square with optional size"""
+            """Initialize Square with optional size"""
 
             if not isinstance(size, int):
                 raise TypeError('size must be an integer')
@@ -18,6 +15,6 @@ class Square:
             self.__size = size
 
         def area(self):
-        """Area"""
+            """Area"""
 
             return size*size
