@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Area of Square Module"""
+"""Define a class Square."""
+
+
 class Square:
         """ Square Class"""
 
