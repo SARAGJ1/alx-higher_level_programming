@@ -7,7 +7,8 @@ class Square:
 
     def __init__(self, size=0):
         """Initialize Square with optional size"""
-        self.size = value
+
+        self.size = size
 
     def size(self):
         """get size"""
