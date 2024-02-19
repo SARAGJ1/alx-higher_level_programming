@@ -3,7 +3,7 @@
 
 
 def is_same_class(obj, a_class):
-"""func that check if the object is of a_class.
+    """func that check if the object is of a_class.
 
     Args:
         obj (any): The object to check.
@@ -14,5 +14,5 @@ def is_same_class(obj, a_class):
     """
 
     if type(obj)==a_class:
-        return True
-    return False
+        return (True)
+    return (False)
