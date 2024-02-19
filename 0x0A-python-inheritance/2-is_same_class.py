@@ -3,8 +3,9 @@
 
 
 def is_same_class(obj, a_class):
+    """func that check if the object is of a_class"""
+
     if dir(obj) == dir(a_class):
         return True
     else:
         return False
-
