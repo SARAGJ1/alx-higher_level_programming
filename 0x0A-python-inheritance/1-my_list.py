@@ -9,7 +9,5 @@ class MyList(list):
         super().__init__(*args)
 
     def print_sorted(self):
-    """Print a list in sorted ascending order."""
-
         print_sorted = sorted(self)
         print(print_sorted)
