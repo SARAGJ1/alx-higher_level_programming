@@ -3,8 +3,7 @@
 
 
 def is_same_class(obj, a_class):
-    """func that check if the object is of a_class.
-    
+    """func that check if the object is of a_class.   
     Args:
         obj (any): The object to check.
         a_class (type): The class to match the type of obj to.
