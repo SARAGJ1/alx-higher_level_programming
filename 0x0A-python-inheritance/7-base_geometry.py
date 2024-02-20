@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''not empty class.'''
+"""not empty class."""
 
 
 class BaseGeometry:
