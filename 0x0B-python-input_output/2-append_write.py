@@ -10,4 +10,5 @@ def append_write(filename="", text=""):
 
     with open(filename, 'w', encoding="utf-8") as f:
         append_data = read_data + text
-        return f.write(append_data)
+        f.write(append_data)
+        return f.write(text)
