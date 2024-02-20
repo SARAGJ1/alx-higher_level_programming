@@ -3,7 +3,8 @@
 
 
 class BaseGeometry:
-        """not empty class"""
+    """not empty class"""
 
-        def area(self):
-            print('[Exception] {} is not implemented'.format(area(self)))
+    def area(self):
+        """not implemented"""
+        raise Exception("area() is not implemented")
