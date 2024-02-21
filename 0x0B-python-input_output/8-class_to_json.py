@@ -5,4 +5,4 @@
 def class_to_json(obj):
     """def class_to_json(obj):"""
 
-    return dir(obj)
+    return obj.__dict__
