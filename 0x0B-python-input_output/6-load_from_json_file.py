@@ -6,7 +6,6 @@ import json
 def load_from_json_file(filename):
     """json"""
 
-    file_path = 'filename.json'
-
-    with open(file_path, 'w') as json_file:
-        json.dump(filename)
+    with open(filename, 'r') as json_file:
+        json_data = json.load(json_file)
+        return json_data
