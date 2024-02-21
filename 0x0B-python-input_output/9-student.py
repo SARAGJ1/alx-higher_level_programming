@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """class module"""
-class_to_json = __import__('8-class_to_json').class_to_json
 
 
 class Student:
@@ -12,4 +11,4 @@ class Student:
         self.age = age
 
     def to_json(self):
-        return class_to_json(self)
+        return self.__dict__

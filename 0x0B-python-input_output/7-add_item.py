@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """json file"""
-
-
 import sys
+
 
 if __name__ == "__main__":
     load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
