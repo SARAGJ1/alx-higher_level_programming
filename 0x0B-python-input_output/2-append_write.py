@@ -11,4 +11,8 @@ def append_write(filename="", text=""):
     with open(filename, 'w', encoding="utf-8") as f:
         append_data = read_data + text
         f.write(append_data)
-        return f.write(text)
+
+    j = 0
+    for i in text:
+        j = j + 1
+    return j
