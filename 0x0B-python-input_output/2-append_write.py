@@ -5,10 +5,8 @@
 def append_write(filename="", text=""):
     """creat the file write in it and read"""
 
-    with open(filename, 'r+', encoding="utf-8") as f:
-        read_data = f.read()
-        append_data = read_data + text
-        f.write(append_data)
+    with open(filename, 'a', encoding="utf-8") as f:
+        f.write(text)
 
     j = 0
     for i in text:
