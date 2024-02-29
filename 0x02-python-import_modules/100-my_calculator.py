@@ -25,4 +25,4 @@ if __name__ == "__main__":
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
 
-    print("{} {} {} ={}". format(sys.argv[1], sys.argv[2], sys.argv[3], s))
+    print("{} {} {} = {}". format(sys.argv[1], sys.argv[2], sys.argv[3], s))
