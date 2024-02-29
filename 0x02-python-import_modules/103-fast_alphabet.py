@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-__import__('sys').stdout.write('ABCDEFGHIJKLMNOPQRSTUVWXYZ\n')
+import string
+print(''.join(getattr(string, 'ascii_uppercase')))
