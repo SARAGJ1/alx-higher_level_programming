@@ -3,7 +3,8 @@ if (process.argv[2] == null) {
   console.log('No argument');
 } else {
   const args = process.argv.slice(2);
-  let i = 0, result = '';
+  let i = 0;
+  let result = '';
   while (args[i] != null) {
     result += args[i] + ' ';
     i = i + 1;
