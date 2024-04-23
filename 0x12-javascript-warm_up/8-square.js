@@ -1,6 +1,6 @@
 #!/usr/bin/node
 let i = 0;
-let k = Number(process.argv[2]);
+const k = Number(process.argv[2]);
 if (Number.isInteger(k)) {
   let result = '';
   while (i < k) {
