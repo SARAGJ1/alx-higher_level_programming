@@ -2,7 +2,7 @@
 function callMeMoby (x, theFunction) {
   let i = 0;
   while (i < x) {
-    theFuction();
+    theFunction();
     i += 1;
   }
 }
