@@ -1,3 +1,3 @@
 #!/bin/bash
 #bash script 
-curl -sl "$1" | awk'/Content-Length/ {print $2}'
+curl -sl $1 | grep"Content-Length" | cut -d " " -f2

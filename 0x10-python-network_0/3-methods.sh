@@ -1,3 +1,3 @@
 #!/bin/bash
 #bash script
-curl -si "$1" | awk -F "'/Allo</ {print $2}'
+curl -sl ALLOW $1 -L | grep "ALLOW" | cut -d " " -f2-
