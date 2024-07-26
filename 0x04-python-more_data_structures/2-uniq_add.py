@@ -8,7 +8,10 @@ def uniq_add(my_list=[]):
     summ = 0
     i = 0
     while (i < len(my_list)):
-            if (my_list.count(my_list[i]) == 1):
-                summ = summ + my_list[i]
+        if (my_list.count(my_list[i]) == 1):
+            summ = summ + my_list[i]
             i += 1
+        else:
+            my_list.pop(i)
+            i = 0
     return summ
