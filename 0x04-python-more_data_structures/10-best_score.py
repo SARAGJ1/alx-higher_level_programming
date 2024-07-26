@@ -5,9 +5,9 @@
 def best_score(a_dictionary):
     """returns a key with the biggest integer value."""
 
+    x = 0
     if a_dictionary == None:
         return None
-    x = 0
     for value in a_dictionary.values():
         if x < value:
             x = value
